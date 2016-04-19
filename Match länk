@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Dank </title>
+    <link rel="stylesheet" href="CSS/css.css">
+    <meta charset="utf-8"/>
+  </head>
+
+
+
+<script>
+
+function test(){
+  hh = document.body.clientHeight - 94;
+  document.getElementById("wrapper2").style.height=hh+"px";
+}
+
+</script>
+
+  <body onLoad="test()">
+
+<a href="index.php"><div class="navLink">
+</div></a>
+
+    <div id="wrapper">
+
+        <header>
+            <!-- Logga eller sidans namn-->
+            <h1 >  Weeb Cancer </h1>
+        </header>
+
+        <div id="wrapper2">
+        <nav>
+          <!-- navigatoin -->
+          <ul>
+            <li><a href="index.php"> Hem </a></li>
+            <li><a href="index.php?page=match"> Matcha </a></li>
+            <li><a href="index.php?page=profil"> Profil </a></li>
+            <li><a href="index.php?page=Skappa"> Skappa inlogg </a></li>
+          </ul>
+
+        </nav>
+
+
+<a href="index.php?page=match"></a>
+
+<a href="index.php?page=profil"></a>
+
+<a href="index.php?page=Skappa"</a>
+          <main>
+
+
+
+
+        </main>
+      </div>
+
+<footer>
+</footer>
+
+      </div> <!-- wrapper -->
+  </body>
+
+</html>
